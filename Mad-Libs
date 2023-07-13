@@ -1,4 +1,4 @@
-#Mad Lib game
+#Mad Lib game [FIRST PROJECT]
 
 #Variable collection
 noun1 = input("Noun: ")
