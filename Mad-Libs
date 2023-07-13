@@ -1,0 +1,36 @@
+#Mad Lib game
+
+#Variable collection
+noun1 = input("Noun: ")
+noun2 = input("Noun: ")
+sibling = input("Sibling Name: ")
+noun_p1 = input("Noun Plural: ")
+noun_p2 = input("Noun Plural: ")
+noun_p3 = input("Noun Plural: ")
+adverb_ly = input("Adverb ending in -ly: ")
+exclamation = input("Exclamation: ")
+verb_ing1 = input("Verb ending in -ing: ")
+adj1 = input("Adjective: ")
+numb = input("Large Number: ")
+celeb = input("Celebrity Name: ")
+adj2 = input("Adjective: ")
+verb_ing2 = input("Verb ending in -ing: ")
+verb1 = input("Verb: ")
+slimy = input("Somthing Slimy: ")
+noun3 = input("Noun: ")
+body_part = input("Body Part: ")
+verb_pt = input("Verb Past-Tense: ")
+
+#String concatenation
+mad_lib = (f"I was going to be rich! I had just invented the first electric {noun1}. \
+Using a(n) {noun2} from {sibling}’s toolbox, I built it out of old {noun_p1}, metal {noun_p2},\
+and rubber {noun_p3}. The first time I turned it on, the machine worked {adverb_ly}. I couldn’t \
+believe it! “{exclamation}!” I yelled, {verb_ing1} up and down. I invited a(n) {adj1} billionaire \
+to check out my invention. I couldn’t wait to sell it for {numb} million dollars and live like \
+{celeb}. But when I turned it on, something went terribly {adj2}. The machine started \
+{verb_ing2} and began to {verb1}. Suddenly it spewed {slimy} and shot slices of {noun3} in all \
+directions. The billionaire started screaming at the top of his {body_part} and {verb_pt} out of my lab. \
+Good thing I still get my weekly allowance.")
+
+#Print out mad_lib variable  
+print(mad_lib)
